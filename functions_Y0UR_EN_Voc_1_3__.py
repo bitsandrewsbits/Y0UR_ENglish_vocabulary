@@ -93,8 +93,7 @@ def adding_words_to_vocabulary(write_file):
                 print('=' * 30)
                 break
             else:
-                writed_date = write_str_date(today_date)
-                voc_write.write(f'=====DATE: {writed_date}=====\n')
+                voc_write.write(f'=====DATE: {today_date}=====\n')
                 break
 
     while True:
